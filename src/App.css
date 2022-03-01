@@ -2,6 +2,12 @@
   top: 50%;
   left: 35%;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .search-field {
+    @apply w-screen;
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -22,11 +22,11 @@ function App() {
             <input
               type="search"
               name="q"
-              class="py-2 text-sm text-white w-96 h-12  bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900"
+              class="py-2 text-sm text-white w-96 h-12  bg-gray-900 rounded-md pl-10 focus:outline-none bg-white focus:text-gray-900"
               placeholder="Search..."
               autocomplete="off"
             />
-            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+            <span class="absolute inset-y-0 right-0 flex items-center bg-gray-900 m-1">
               <button
                 type="submit"
                 class="p-1 focus:outline-none focus:shadow-outline"
